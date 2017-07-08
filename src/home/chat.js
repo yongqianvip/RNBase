@@ -20,6 +20,8 @@ export default class ChatScreen extends Component {
           <Button title="详情" onPress={()=>{
             navigation.navigate('Detail')
             // navigation.navigate('Chat',{name: 'QQQ'})
+            //
+            //
           }}/>
         </View>
       ),
