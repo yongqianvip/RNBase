@@ -12,6 +12,7 @@ export default class ChatScreen extends Component {
   static navigationOptions = ({navigation}) => {
     return {
       title: '聊天',
+      tabBarVisible: false,
       headerRight: (
         <View style={{flexDirection: 'row'}}>
           <Button title="setParams" onPress={()=>{
